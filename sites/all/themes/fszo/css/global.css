@@ -1,0 +1,75 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+
+
+html, body { height:100% }
+body {font-size:12px;font-family:arial, helvetica;line-height:1.25em}
+h1, h2, h3 { line-height:1em; letter-spacing:.01em;font-family:"KippCleOneD"; font-weight:normal }
+
+
+a:link, a:visited, a:active { text-decoration:none; color:##23375b }
+
+#region-branding {margin-left:0}
+
+body.front h1.site-name,
+body.front h1#page-title { display:none }
+h1.site-name { margin-bottom:.15em }
+h2.site-name a { color:#000 }
+
+#page, #section-content, #zone-content-wrapper, #zone-content, #region-content { margin:0; height:100% }
+
+
+body.front #page { display:none }
+#imgholdr {width:100%;height:96%}
+#imgholdr td {vertical-align: middle;}
+#imgholdr img {vertical-align: middle;}
+
+.block-3 {display:none}
+
+
+
+#block-menu-block-1 { margin: 0 0 2em 0;padding:.5em 0 0;border-top:1px solid;border-bottom:1px solid }
+#block-menu-block-1 ul {margin:0}
+#block-menu-block-1 ul li { margin:0;list-style:none; padding: 0 0 .5em 0 }
+#block-menu-block-1 ul ul { margin:0 0 0 1em;}
+/*
+#block-menu-block-1 ul ul a {font-size:28px;line-height:1em;font-family:"KippCleOneD"; font-weight:normal; }
+*/
+#block-menu-block-1 li a {font-weight:bold; text-decoration:none}
+
+
+
+#region-sidebar-first, #region-sidebar-second { margin:1em 0 0 0 }
+#region-sidebar-first .block-inner,
+#region-sidebar-second .block-inner { padding:0 1em}
+#block-system-main .block-inner { padding:0 1em}
+
+
+
+#block-block-5 img {max-width:100%;height:auto}
+#block-block-5 { padding-top:40em;background: url('../images/ente-web.png') no-repeat 0 100px}
+
+body.page-node-2 .node-page {background: url('../images/ente-web.png') no-repeat bottom right}
+
+
+.portraet {margin-bottom:1em }
+.person { width:31%;margin-right:2% }
+
+/* wysiwyg styles */
+
+span.kippenorm, 
+span.kippgross, 
+span.kippmittel, 
+span.kippklein,
+span.credo { font-family:"KippCleOneD"; font-weight:normal; }
+span.kippklein { color:#000 }
+
+span.kippenorm { font-size: 28em;line-height:1em }
+span.kippgross { font-size: 10em;line-height:1em }
+span.kippmittel { font-size: 7em;line-height:1em }
+span.kippklein, span.credo { font-size: 2em;line-height:1em }
+
+span.nowrap { white-space:nowrap }
+
+p.rating {font-size:11px;font-weight:bold}
