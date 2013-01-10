@@ -5,7 +5,8 @@
         attach: function (context, settings) {
 
             $('.page-node-2 #region-content .field-name-body').css({ opacity: 0 })
-            $('#region-content').backstretch(settings.stueckPage['bgurl'],{'fade':1000});
+            $.backstretch(settings.stueckPage['bgurl'],{'fade':1000});
+            $('.backstretch').css({'margin-left':'25%'})
             $(document.body).on("backstretch.show", function () { 
                 $('.page-node-2 #region-content .field-name-body').animate({opacity:1}, 1000)
             });
