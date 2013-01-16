@@ -18,7 +18,7 @@
                 $('<img/>').attr('src', settings.homePage['animurl'])
                             .appendTo($('body')).css({'position':'absolute','left':'-200px','bottom':'10%'})
                             .animate({
-                                left: '+=2000',
+                                left: '3000'
                               }, 30000, function() {
                               })
             })
