@@ -91,3 +91,5 @@ a#stoerersupport { background: url(../images/unterstuetzen-wemakeit.png) no-repe
 a#stoerersupport:hover { background-position: -169px 1px }
 
 img.inline { float:left }
+
+.page-node-10 h2 { border-top:1px solid #000;padding-top:.5em }
