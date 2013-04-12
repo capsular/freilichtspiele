@@ -5,7 +5,7 @@
 
 html, body { height:100% }
 body {font-size:12px;font-family:arial, helvetica;line-height:1.25em}
-h1, h2, h3 { line-height:1em; letter-spacing:.01em;font-family:"KippCleOneD"; font-weight:normal }
+h1, h2, h3 { text-transform:uppercase;line-height:1em; letter-spacing:.01em;font-family:"KippCleOneD"; font-weight:normal }
 
 
 a:link, a:visited, a:active { text-decoration:none; color:#0000ff }
