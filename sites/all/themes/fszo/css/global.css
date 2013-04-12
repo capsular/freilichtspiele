@@ -87,7 +87,7 @@ p.rating {font-size:11px;font-weight:bold}
 a.stoerer { z-index:200;position:absolute }
 a#stoerermail { background: url(../images/unterstuetzen-mail.gif) no-repeat; width: 157px;height:157px; top:400px;left:620px}
 a#stoerermail:hover { background-position: -160px }
-a#stoerersupport { background: url(../images/unterstuetzen-wemakeit.png) no-repeat; width:170px;height:169px; top:30px;left:560px}
+a#stoerersupport { background: url(../images/unterstuetzen-wemakeit.png) no-repeat; width:170px;height:169px; top:230px;left:360px}
 a#stoerersupport:hover { background-position: -169px 1px }
 
 img.inline { float:left }
