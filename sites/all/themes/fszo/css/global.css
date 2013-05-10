@@ -87,8 +87,29 @@ p.rating {font-size:11px;font-weight:bold}
 a.stoerer { z-index:200;position:absolute }
 a#stoerermail { background: url(../images/unterstuetzen-mail.gif) no-repeat; width: 157px;height:157px; top:400px;left:620px}
 a#stoerermail:hover { background-position: -160px }
+/* 
 a#stoerersupport { background: url(../images/unterstuetzen-wemakeit.png) no-repeat; width:170px;height:169px; top:270px;left:460px}
-a#stoerersupport:hover { background-position: -169px 1px }
+a#stoerersupport:hover { background-position: -169px 1px } 
+*/
+
+a#stoerersupport { 
+    color:#fff; background: #000;
+    height:80px;width:130px;
+    font-family:"KippCleOneD"; 
+    font-weight:bold; 
+    text-transform:uppercase;
+    font-size: 12px;
+    top:270px;
+    left:460px;
+    padding: 70px 0px 10px 30px;
+    border: 3px double #fff;
+    -webkit-border-radius: 80px;    
+     border-radius: 80px;    
+    -moz-border-radius:80px;
+    -khtml-border-radius:80px;
+    }
+    
+a#stoerersupport:hover { color:#0000ff; border-color: #0000ff}
 
 img.inline { float:left }
 
