@@ -116,12 +116,17 @@ a.stoerer:hover { color:#0000ff; border-color: #0000ff}
 a#stoerertickets { 
     top:40px;
     left:280px;
-    padding: 50px 0px 0px 25px;
-    width:90px;
+    border: 3px double #0000ff;
+    padding: 50px 0px 0px 35px;
+    -webkit-border-radius: 80px;    
+     border-radius: 80px;    
+    -moz-border-radius:80px;
+    -khtml-border-radius80px;
+    width:110px;
     height:70px;
     background:#fff; color: #000;
     }
-a#stoerertickets:hover { color:#0000ff; border-color: #0000ff}
+a#stoerertickets:hover { color:#ffffff; border-color: #000000; background: #0000ff}
 
 img.inline { float:left }
 
