@@ -101,7 +101,7 @@ a.stoerer {
     -khtml-border-radius:100px;
     font-family:"KippCleOneD"; 
     text-transform:uppercase;
-    height:90px;width:140px;
+    height:90px;
     color:#fff; background: #000;
     font-size: 28px;
     }
@@ -109,13 +109,15 @@ a#stoerersupport {
     top:270px;
     left:460px;
     padding: 70px 0px 0px 20px;
+    width:140px;
     }
 a.stoerer:hover { color:#0000ff; border-color: #0000ff}
 
 a#stoerertickets { 
     top:40px;
     left:280px;
-    padding: 70px 0px 0px 20px;
+    padding: 70px 0px 0px 50px;
+    width:110px;
     }
 
 
