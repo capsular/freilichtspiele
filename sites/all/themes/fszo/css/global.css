@@ -84,31 +84,40 @@ span.nowrap { white-space:nowrap }
 p.rating {font-size:11px;font-weight:bold}
 
 .page-node-2 .field-item p {position:relative}
-a.stoerer { z-index:200;position:absolute }
+
 a#stoerermail { background: url(../images/unterstuetzen-mail.gif) no-repeat; width: 157px;height:157px; top:400px;left:620px}
 a#stoerermail:hover { background-position: -160px }
 /* 
 a#stoerersupport { background: url(../images/unterstuetzen-wemakeit.png) no-repeat; width:170px;height:169px; top:270px;left:460px}
 a#stoerersupport:hover { background-position: -169px 1px } 
 */
-
-a#stoerersupport { 
-    color:#fff; background: #000;
-    height:90px;width:140px;
-    font-family:"KippCleOneD"; 
-    text-transform:uppercase;
-    font-size: 28px;
-    top:270px;
-    left:460px;
-    padding: 70px 0px 0px 20px;
+a.stoerer { 
+    z-index:200;
+    position:absolute;
     border: 3px double #fff;
     -webkit-border-radius: 100px;    
      border-radius: 100px;    
     -moz-border-radius:100px;
     -khtml-border-radius:100px;
+    font-family:"KippCleOneD"; 
+    text-transform:uppercase;
+    height:90px;width:140px;
+    color:#fff; background: #000;
+    font-size: 28px;
     }
-    
-a#stoerersupport:hover { color:#0000ff; border-color: #0000ff}
+a#stoerersupport { 
+    top:270px;
+    left:460px;
+    padding: 70px 0px 0px 20px;
+    }
+a.stoerer:hover { color:#0000ff; border-color: #0000ff}
+
+a#stoerertickets { 
+    top:40px;
+    left:280px;
+    padding: 70px 0px 0px 20px;
+    }
+
 
 img.inline { float:left }
 
