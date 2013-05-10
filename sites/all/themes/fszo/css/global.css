@@ -116,13 +116,13 @@ a.stoerer:hover { color:#0000ff; border-color: #0000ff}
 a#stoerertickets { 
     top:40px;
     left:280px;
-    border: 3px double #0000ff;
-    padding: 50px 0px 0px 30px;
+    border: 3px double #000000;
+    padding: 50px 0px 0px 25px;
     -webkit-border-radius: 90px;    
      border-radius: 90px;    
     -moz-border-radius:90px;
     -khtml-border-radius90px;
-    width:90px;
+    width:95px;
     height:70px;
     background:#fff; color: #000;
     }
