@@ -126,7 +126,7 @@ a#stoerertickets {
     height:70px;
     background:#fff; color: #000;
     }
-a#stoerertickets:hover { color:#ffffff; border-color: #000000; background: #0000ff}
+a#stoerertickets:hover { color:#ffffff; border-color: #ffffff; background: #000000}
 
 img.inline { float:left }
 
