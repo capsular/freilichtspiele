@@ -8,6 +8,14 @@ body {font-size:12px;font-family:arial, helvetica;line-height:1.25em}
 h1, h2, h3 { text-transform:uppercase;line-height:1em; letter-spacing:.01em;font-family:"KippCleOneD"; font-weight:normal }
 
 
+img { max-width:100%; height:auto }
+
+@media \0screen {
+  img { 
+  	width: auto; /* for ie 8 */
+  }
+}
+
 a:link, a:visited, a:active { text-decoration:none; color:#0000ff }
 a:hover {color:#0000ff; text-decoration:underline}
 #region-branding {margin-left:0}
