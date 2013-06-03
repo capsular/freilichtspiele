@@ -23,7 +23,7 @@ function fszo_preprocess_node(&$vars, $hook) {
         // dsm($vars);
         
         $bgurl = file_create_url($vars['field_background_image']['und'][0]['uri']);
-        $txturl = file_create_url($vars['field_textoverlay_image']['und'][0]['uri']);
+        $txturl = base_path() . drupal_get_path('theme', 'fszo') .  "/images/hometext.png";
         $animurl = base_path() . drupal_get_path('theme', 'fszo') .  "/images/walkcycle_01b-h400.gif";
         
         $linkto = base_path() . "stuecke";
