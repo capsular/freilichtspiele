@@ -39,7 +39,10 @@ body.front #page { display:none }
 
 .block-3 {display:none}
 
-
+#block-block-7 {
+    border-top:1px solid #000;
+    padding-top: 1em;
+}
 
 #block-menu-block-1 { margin: 0 0 2em 0;padding:.5em 0 0;border-top:1px solid;border-bottom:1px solid }
 #block-menu-block-1 ul {margin:0}
