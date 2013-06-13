@@ -39,9 +39,9 @@ body.front #page { display:none }
 
 .block-3 {display:none}
 
-#block-block-7 {
+#block-block-7, #block-block-11, #block-block-8 {
     border-top:1px solid #000;
-    padding-top: 1em;
+    padding: 1em 0;
 }
 
 #block-menu-block-1 { margin: 0 0 2em 0;padding:.5em 0 0;border-top:1px solid;border-bottom:1px solid }
