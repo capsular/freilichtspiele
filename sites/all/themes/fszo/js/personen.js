@@ -4,7 +4,7 @@
      Drupal.behaviors.personen = {
         attach: function (context, settings) {
 
-            $('.view-personen .view-content').masonry({
+            $('.view-personen .view-content', '.view-ensemble .view-content').masonry({
                 itemSelector: '.person',
                 columnWidth: function( containerWidth ) {
                     return containerWidth / 3;
