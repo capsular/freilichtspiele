@@ -51,7 +51,7 @@ function fszo_preprocess_node(&$vars, $hook) {
 
 function fszo_preprocess_views_view(&$vars) {
 
-  if( $vars['view']->name == 'personen'){
+  if( $vars['view']->name == 'personen' || $vars['view']->name == 'ensemble' ){
     drupal_add_js(drupal_get_path('theme', 'fszo') .'/js/jquery.masonry.min.js', 
         array('type' => 'file', 'scope' => 'footer', 'weight' => 80) 
     );
