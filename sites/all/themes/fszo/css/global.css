@@ -76,7 +76,7 @@ body.page-node-2 .node-page {background: url('../images/ente-web.png') no-repeat
 table#imgholdr img { cursor:pointer }
 
 .portraet {margin-bottom:1em }
-.person { width:31%;margin-right:2%; margin-bottom:1em;border-bottom:1px solid #000;padding-bottom:.5em }
+div.person { width:31%;margin-right:2%; margin-bottom:1em;border-bottom:1px solid #000;padding-bottom:.5em }
 
 
 
