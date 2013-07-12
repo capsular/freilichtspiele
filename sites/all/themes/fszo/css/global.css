@@ -92,7 +92,7 @@ span.kippklein { color:#000 }
 span.kippenorm { font-size: 28em;line-height:1em }
 span.kippgross { font-size: 10em;line-height:1em }
 span.kippmittel { font-size: 7em;line-height:1em }
-span.kippklein, h3.person, #region-sidebar-first h2 { font-size: 30px;line-height:1em }
+span.kippklein, div.person h3, #region-sidebar-first h2 { font-size: 30px;line-height:1em }
 span.blau { color:#0000ff }
 
 span.nowrap { white-space:nowrap }
