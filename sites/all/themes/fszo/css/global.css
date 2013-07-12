@@ -78,13 +78,16 @@ table#imgholdr img { cursor:pointer }
 .portraet {margin-bottom:1em }
 .person { width:31%;margin-right:2%; margin-bottom:1em;border-bottom:1px solid #000;padding-bottom:.5em }
 
+
+
 /* wysiwyg styles */
 
 span.kippenorm, 
 span.kippgross, 
 span.kippmittel, 
 span.kippklein,
-span.credo { font-family:"KippCleOneD"; font-weight:normal; }
+h3.person  { font-family:"KippCleOneD"; font-weight:normal; }
+
 span.kippklein { color:#000 }
 
 span.kippenorm { font-size: 28em;line-height:1em }
