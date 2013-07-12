@@ -85,7 +85,7 @@ span.kippenorm,
 span.kippgross, 
 span.kippmittel, 
 span.kippklein,
-h3.person  { font-family:"KippCleOneD"; font-weight:normal; }
+div.person h3  { font-family:"KippCleOneD"; font-weight:normal; }
 
 span.kippklein { color:#000 }
 
