@@ -22,7 +22,6 @@
                               }, 30000, function() {
                               })
             })
-            console.log(settings);
             $img.attr('src', settings.homePage['txturl']);
             $img.on('click', function(){
                 window.location.href=settings.homePage['linkto']
