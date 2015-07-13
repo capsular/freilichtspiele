@@ -14,7 +14,7 @@
  
 function fszo_preprocess_html(&$vars, $hook) {
     // drupal_add_css("http://fast.fonts.com/cssapi/d98cf283-4c0a-4f08-b6e1-e96140ac6440.css",'external');
-    drupal_add_css("http://fnt.webink.com/wfs/webink.css/?project=EA9F156B-506D-4CEB-A200-5F2F1095C74A&fonts=29D460F1-1191-FF98-4C4D-BB44D43D08D0:f=KippCleOneD", 'external');
+    // drupal_add_css("http://fnt.webink.com/wfs/webink.css/?project=EA9F156B-506D-4CEB-A200-5F2F1095C74A&fonts=29D460F1-1191-FF98-4C4D-BB44D43D08D0:f=KippCleOneD", 'external');
 }
 
 function fszo_preprocess_node(&$vars, $hook) {

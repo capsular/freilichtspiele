@@ -1,11 +1,14 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-
+@font-face {
+  font-family: k023006d;
+  src: url("../fonts/k023006dWeb.woff") format("woff");
+}
 
 html, body { height:100% }
 body {font-size:12px;font-family:arial, helvetica;line-height:1.25em}
-h1, h2, h3 { text-transform:uppercase;line-height:1em; letter-spacing:.01em;font-family:"KippCleOneD"; font-weight:normal }
+h1, h2, h3 { text-transform:uppercase;line-height:1em; letter-spacing:.01em;font-family:k023006d; font-weight:normal }
 
 
 img { max-width:100%; height:auto }
@@ -85,7 +88,7 @@ span.kippenorm,
 span.kippgross, 
 span.kippmittel, 
 span.kippklein,
-div.person h3  { font-family:"KippCleOneD"; font-weight:normal; }
+div.person h3  { font-family:k023006d; font-weight:normal; }
 
 span.kippklein { color:#000 }
 
@@ -115,7 +118,7 @@ a.stoerer {
      border-radius: 100px;    
     -moz-border-radius:100px;
     -khtml-border-radius:100px;
-    font-family:"KippCleOneD"; 
+    font-family:k023006d; 
     text-transform:uppercase;
     height:90px;
     color:#fff; background: #000;
